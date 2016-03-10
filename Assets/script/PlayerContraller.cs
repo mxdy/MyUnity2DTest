@@ -73,7 +73,7 @@ public class PlayerContraller : MonoBehaviour {
         }
 
         // 上
-        if (Input.GetKeyDown(KeyCode.J))
+        if (Input.GetKey(KeyCode.J))
         {
             if (IsJump())
                 return;
@@ -101,14 +101,14 @@ public class PlayerContraller : MonoBehaviour {
         //}
 
         // 向下掉
-        if (rg2d.GetRelativePointVelocity(transform.localPosition).y < 0)
-        {
-            if (ps != PlayerState.IDLE)
-            {
-                Debug.Log("down");
-                ps = PlayerState.JUMP_DOWN;
-            }
-        }
+        //if (rg2d.GetRelativePointVelocity(transform.localPosition).y < 0)
+        //{
+        //    //if (ps != PlayerState.IDLE)
+        //    //{
+        //        Debug.Log("down");
+        //        ps = PlayerState.JUMP_DOWN;
+        //    //}
+        //}
     }
 
     void OnCollisionEnter2D(Collision2D coll)
@@ -117,6 +117,8 @@ public class PlayerContraller : MonoBehaviour {
         {
             Debug.Log("idle");
             ps = PlayerState.IDLE;
+
+            rg2d.velocity = Vector2.zero;
         }
     }
 
