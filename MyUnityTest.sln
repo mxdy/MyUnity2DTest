@@ -1,7 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyUnityTest.CSharp.Plugins", "MyUnityTest.CSharp.Plugins.csproj", "{630304E2-E14D-F9C7-6476-408A3CD2174C}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyUnityTest.CSharp", "MyUnityTest.CSharp.csproj", "{CD3367B9-AA74-425D-2050-57095E2961E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyUnityTest.CSharp.Editor", "MyUnityTest.CSharp.Editor.csproj", "{0FC54C03-9D95-59F3-68DE-F724AF9C44E0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -9,10 +13,18 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{630304E2-E14D-F9C7-6476-408A3CD2174C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{630304E2-E14D-F9C7-6476-408A3CD2174C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{630304E2-E14D-F9C7-6476-408A3CD2174C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{630304E2-E14D-F9C7-6476-408A3CD2174C}.Release|Any CPU.Build.0 = Release|Any CPU
 		{CD3367B9-AA74-425D-2050-57095E2961E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{CD3367B9-AA74-425D-2050-57095E2961E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CD3367B9-AA74-425D-2050-57095E2961E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CD3367B9-AA74-425D-2050-57095E2961E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0FC54C03-9D95-59F3-68DE-F724AF9C44E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FC54C03-9D95-59F3-68DE-F724AF9C44E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FC54C03-9D95-59F3-68DE-F724AF9C44E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FC54C03-9D95-59F3-68DE-F724AF9C44E0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

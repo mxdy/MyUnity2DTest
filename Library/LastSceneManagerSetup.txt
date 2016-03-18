@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/scene/force_scene.unity
+- path: Assets/Hawaii Environment.unity
   isLoaded: 1
   isActive: 1
